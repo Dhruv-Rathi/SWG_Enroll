@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SWG_Enroll</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="enter_roll_number">Enter Roll Number:</string>
+    <string name="enroll">ENROLL</string>
+    <string name="dhruv_rathi">Enter your name here</string>
+    <string name="_20ee10024">Enter your roll no. here</string>
+</resources>
