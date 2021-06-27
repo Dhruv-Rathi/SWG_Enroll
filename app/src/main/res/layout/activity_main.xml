@@ -8,45 +8,54 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="108dp"
-        android:layout_height="45dp"
+        android:layout_width="156dp"
+        android:layout_height="37dp"
         android:layout_marginTop="96dp"
         android:text="@string/enter_name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameInput"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
 
     <EditText
         android:id="@+id/nameInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
-        android:hint="@string/dhruv_rathi"
+        android:layout_marginTop="204dp"
         android:ems="10"
+        android:hint="@string/dhruv_rathi"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="117dp"
-        android:layout_height="22dp"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
         android:layout_marginTop="240dp"
         android:text="@string/enter_roll_number"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/rollInput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
 
     <EditText
         android:id="@+id/rollInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="376dp"
         android:ems="10"
         android:hint="@string/_20ee10024"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,5 +71,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rollInput"
         app:layout_constraintVertical_bias="0.26" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="118dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/swgicon" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
